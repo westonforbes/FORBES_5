@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ASCII_RENDER_TEST_APPLICATION": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\wforbes\\Documents\\SOFTWARE\\FORBES_5_LIBRARY\\ASCII_RENDER_TEST_APPLICATION\\banana.gif\""
+    }
+  }
+}

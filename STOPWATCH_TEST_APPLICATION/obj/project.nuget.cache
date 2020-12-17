@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y37/PZAg/z4JWcxqxIaOS8bMsMhVmbydvrU9HotHplezgD8ELpZbHUwW8FR5oQQRYasbMz7+V46hB9X+xT9KNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wforbes\\Documents\\SOFTWARE\\FORBES_5_LIBRARY\\STOPWATCH_TEST_APPLICATION\\STOPWATCH_TEST_APPLICATION.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wforbes\\.nuget\\packages\\sixlabors.imagesharp\\1.0.2\\sixlabors.imagesharp.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

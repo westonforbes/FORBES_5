@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FORBES_5</name>
+    </assembly>
+    <members>
+        <member name="T:FORBES_5.ASCII_RENDER_NAMESPACE.ASCII_RENDER">
+            <summary>
+            This class can convert a image to ASCII art.
+            This has been converted over from NET framework 4.7.2 where it had a System.Drawing dependency.
+            System.Drawing has been substituted for SixLabors.ImageSharp as per the depreciation note on the System.Drawing MSDN page.
+            MSDN page for System.Drawing: https://docs.microsoft.com/en-us/dotnet/api/system.drawing?view=dotnet-plat-ext-5.0
+            ImageSharp github page: https://github.com/SixLabors/ImageSharp
+            ImageSharp Documentation page: https://docs.sixlabors.com/api/index.html
+            </summary>
+        </member>
+        <member name="M:FORBES_5.ASCII_RENDER_NAMESPACE.ASCII_RENDER.RENDER_IMAGE(System.Collections.Generic.List{System.Char[0:,0:]},System.Int32,System.Int32)">
+            <summary>
+            This function will render ASCII animation and images to the console.
+            </summary>
+            <param name="FRAME_SET">The data to print, List Element = FRAME[ROW][COLUMN]</param>
+            <param name="FRAME_DELAY">The amount of time in mS to pause after rendering each frame.</param>
+            <param name="LOOP_COUNT">The number of times to loop the animation.</param>
+            <returns>0 on success.</returns>
+            <returns>1 on generic failure.</returns>
+        </member>
+        <member name="M:FORBES_5.ASCII_RENDER_NAMESPACE.ASCII_RENDER.PROCESS_IMAGE(System.String,System.Int32,System.Int32)">
+            <summary>
+            This function returns a image converted into ASCII art. This function will throw an exception up to the calling method there is a problem,
+            so be ready to catch it before blindly marching on.
+            </summary>
+            <param name="FILEPATH">The location of the file.</param>
+            <param name="RESIZE_X">Optional, new width to scale to.</param>
+            <param name="RESIZE_Y">Optional, new height to scale to.</param>
+            <returns>A list of character arrays. Each character array element 
+            in the list represents a frame from the image (Animations supported).
+            The first dimension of the array is the row number and the second dimension is the colum.
+            List Element = FRAME[ROW][COLUMN]</returns>
+        </member>
+        <member name="M:FORBES_5.ASCII_RENDER_NAMESPACE.ASCII_RENDER.CONVERT_IMAGE(SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Int32,System.Int32)">
+            <summary>
+            This function will convert a image to a luminescence byte array.
+            </summary>
+            <param name="IMAGE">The image to convert.</param>
+            <param name="X_SIZE">If you want to scale the image, send the output width. Note: Both X and Y values must be sent for scaling to process.</param>
+            <param name="Y_SIZE">If you want to scale the image, send the output height. Note: Both X and Y values must be sent for scaling to process.</param>
+            <returns>A byte array of luminescence values.</returns>
+        </member>
+        <member name="M:FORBES_5.ASCII_RENDER_NAMESPACE.ASCII_RENDER.CONVERT_TO_ASCII(System.Byte[0:,0:])">
+            <summary>
+            This function will convert a byte array of luminescence values to ASCII representations of those values. The function has 12 shades.
+            </summary>
+            <param name="BYTE_ARRAY">The byte array to convert.</param>
+            <returns>A character array of an image ready to print.</returns>
+        </member>
+        <member name="T:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH">
+            <summary>
+            This class is a simple stopwatch class that does not use background resources (no timer thread). It simply calculates the time difference
+            between start and stop using the system clock. Note that this may not be suitable for some applications because events such as daylight savings time
+            will cause miscalcluations. This if for lightweight, non-critical applications.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.#ctor">
+            <summary>
+            This class will automatically timestamp on initialization, so using the START/MARK/RESTART methods are not required.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.START_TIME">
+            <summary>
+            The start timestamp.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.STOP_TIME">
+            <summary>
+            The stop timestamp.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.ELAPSED_TIME">
+            <summary>
+            The time difference between STOP_TIME and START_TIME. Method MARK_STOP_TIME must be called to perform calculation. 
+            Note that MARK_STOP_TIME will  automatically return this property.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.MARK_START_TIME">
+            <summary>
+            Marks the start time.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH.MARK_STOP_TIME">
+            <summary>
+            Marks the stop time and returns the automatically returns the property ELAPSED_TIME.
+            </summary>
+            <returns>the TimeSpan property ELAPSED_TIME.</returns>
+        </member>
+    </members>
+</doc>
