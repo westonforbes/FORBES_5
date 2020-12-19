@@ -19,3 +19,11 @@ This namespace allows you to render images as ASCII art, its kind of a fun tool 
 ### STOPWATCH_NAMESPACE
 
 This namespace contains the STOPWATCH class. Its a lightweight and clean way to do a stopwatch. Rather than using a Timer and the associated worker threads and resources, it just timestamps the start time and stop time and calculates the difference between the two. This leaves it open to problems like the clock being adjusted while its running causing issues, so ya know, don't run the space shuttle guidance computers on it, but other than that, meh. Its useful.
+
+### LOGGER_NAMESPACE
+
+This namespace handles everything needed for simple application logging. It will track and indent the methods being called and save everything to a log file located in the current directory.
+
+### EXTENSIONS_NAMESPACE
+
+Holds custom extensions for different data types. Just things I have found useful.

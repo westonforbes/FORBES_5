@@ -1,0 +1,12 @@
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\FORBES_5.deps.json
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\FORBES_5.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\ref\FORBES_5.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\FORBES_5.pdb
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.csprojAssemblyReference.cache
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.AssemblyInfoInputs.cache
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.AssemblyInfo.cs
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.csproj.CoreCompileInputs.cache
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\ref\FORBES_5.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.pdb

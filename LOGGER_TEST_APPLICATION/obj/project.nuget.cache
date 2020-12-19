@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QzQlltcmTsM34N7WtvhKpkj/5hnZBM5P805qaK5CwYyMUf1bPoqxGTufkOXMooXIyD3qc3injp5NxH0p8xudBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wforbes\\Documents\\SOFTWARE\\FORBES_5_LIBRARY\\LOGGER_TEST_APPLICATION\\LOGGER_TEST_APPLICATION.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wforbes\\.nuget\\packages\\sixlabors.imagesharp\\1.0.2\\sixlabors.imagesharp.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

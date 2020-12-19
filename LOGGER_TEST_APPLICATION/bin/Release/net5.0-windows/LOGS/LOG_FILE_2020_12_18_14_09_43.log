@@ -1,0 +1,702 @@
+      Timestamp     | Code | Entry ID |    Method Name                   | Message
+2020-12-18T14:09:43 | 0910 | 00000000 | STATIC CONSTRUCTOR               | *** Log created.
+2020-12-18T14:09:43 | 0900 | 00000001 | ERASE_OLD_LOGS                   | >>> Thread entering method.
+2020-12-18T14:09:43 | 0910 | 00000002 | ERASE_OLD_LOGS                   |     Checking for old log files.
+2020-12-18T14:09:43 | 0910 | 00000003 | ERASE_OLD_LOGS                   |     Checking file: LOG_FILE_2020_12_18_14_00_14.log
+2020-12-18T14:09:43 | 0910 | 00000004 | ERASE_OLD_LOGS                   |     Deleting file: LOG_FILE_2020_12_18_14_00_14.log
+2020-12-18T14:09:43 | 0901 | 00000005 | ERASE_OLD_LOGS                   | <<< Thread exiting method.
+2020-12-18T14:09:43 | 0900 | 00000006 | CONSTRUCTOR                      | >>> Thread entering method.
+2020-12-18T14:09:43 | 0001 | 00000007 | CONSTRUCTOR                      |     The form initialized.
+2020-12-18T14:09:44 | 0901 | 00000008 | CONSTRUCTOR                      | <<< Thread exiting method.
+2020-12-18T14:09:44 | 0900 | 00000009 | FORM_LOAD                        | >>> Thread entering method.
+2020-12-18T14:09:44 | 0001 | 00000010 | FORM_LOAD                        |     The form loaded.
+2020-12-18T14:09:44 | 0901 | 00000011 | FORM_LOAD                        | <<< Thread exiting method.
+2020-12-18T14:09:46 | 0900 | 00000012 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:09:46 | 0001 | 00000013 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:09:46 | 0900 | 00000014 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:09:46 | 0001 | 00000015 | FUNCT_0                          |         Here!
+2020-12-18T14:09:46 | 0900 | 00000016 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:09:46 | 0001 | 00000017 | FUNCT_1                          |             Here too!
+2020-12-18T14:09:46 | 0900 | 00000018 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:09:46 | 0001 | 00000019 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:09:46 | 0904 | 00000020 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:09:46 | 0902 | 00000021 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:09:46 | 0903 | 00000022 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:09:46 | 0901 | 00000023 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:09:46 | 0901 | 00000024 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:09:47 | 0900 | 00000025 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:09:47 | 0001 | 00000026 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:09:47 | 0900 | 00000027 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:09:47 | 0001 | 00000028 | FUNCT_0                          |         Here!
+2020-12-18T14:09:47 | 0900 | 00000029 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:09:47 | 0001 | 00000030 | FUNCT_1                          |             Here too!
+2020-12-18T14:09:47 | 0900 | 00000031 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:09:47 | 0001 | 00000032 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:09:47 | 0904 | 00000033 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:09:47 | 0902 | 00000034 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:09:47 | 0903 | 00000035 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:09:47 | 0901 | 00000036 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:09:47 | 0901 | 00000037 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:09:50 | 0900 | 00000038 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:09:50 | 0001 | 00000039 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:09:50 | 0900 | 00000040 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:09:50 | 0001 | 00000041 | FUNCT_0                          |         Here!
+2020-12-18T14:09:50 | 0900 | 00000042 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:09:50 | 0001 | 00000043 | FUNCT_1                          |             Here too!
+2020-12-18T14:09:50 | 0900 | 00000044 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:09:50 | 0001 | 00000045 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:09:50 | 0904 | 00000046 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:09:50 | 0902 | 00000047 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:09:50 | 0903 | 00000048 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:09:50 | 0901 | 00000049 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:09:50 | 0901 | 00000050 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:09:53 | 0900 | 00000051 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:09:53 | 0001 | 00000052 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:09:53 | 0900 | 00000053 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:09:53 | 0001 | 00000054 | FUNCT_0                          |         Here!
+2020-12-18T14:09:53 | 0900 | 00000055 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:09:53 | 0001 | 00000056 | FUNCT_1                          |             Here too!
+2020-12-18T14:09:53 | 0900 | 00000057 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:09:53 | 0001 | 00000058 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:09:53 | 0904 | 00000059 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:09:53 | 0902 | 00000060 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:09:53 | 0903 | 00000061 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:09:53 | 0901 | 00000062 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:09:53 | 0901 | 00000063 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:09:58 | 0900 | 00000064 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:09:58 | 0001 | 00000065 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:09:58 | 0900 | 00000066 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:09:58 | 0001 | 00000067 | FUNCT_0                          |         Here!
+2020-12-18T14:09:58 | 0900 | 00000068 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:09:58 | 0001 | 00000069 | FUNCT_1                          |             Here too!
+2020-12-18T14:09:58 | 0900 | 00000070 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:09:58 | 0001 | 00000071 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:09:58 | 0904 | 00000072 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:09:58 | 0902 | 00000073 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:09:58 | 0903 | 00000074 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:09:58 | 0901 | 00000075 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:09:58 | 0901 | 00000076 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:00 | 0900 | 00000077 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:00 | 0001 | 00000078 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:00 | 0900 | 00000079 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:00 | 0001 | 00000080 | FUNCT_0                          |         Here!
+2020-12-18T14:10:00 | 0900 | 00000081 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:00 | 0001 | 00000082 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:00 | 0900 | 00000083 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:00 | 0001 | 00000084 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:00 | 0904 | 00000085 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:00 | 0902 | 00000086 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:00 | 0903 | 00000087 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:00 | 0901 | 00000088 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:00 | 0901 | 00000089 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:01 | 0900 | 00000090 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:01 | 0001 | 00000091 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:01 | 0900 | 00000092 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:01 | 0001 | 00000093 | FUNCT_0                          |         Here!
+2020-12-18T14:10:01 | 0900 | 00000094 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:01 | 0001 | 00000095 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:01 | 0900 | 00000096 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:01 | 0001 | 00000097 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:01 | 0904 | 00000098 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:01 | 0902 | 00000099 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:01 | 0903 | 00000100 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:01 | 0901 | 00000101 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:01 | 0901 | 00000102 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:02 | 0900 | 00000103 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:02 | 0001 | 00000104 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:02 | 0900 | 00000105 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:02 | 0001 | 00000106 | FUNCT_0                          |         Here!
+2020-12-18T14:10:02 | 0900 | 00000107 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:02 | 0001 | 00000108 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:02 | 0900 | 00000109 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:02 | 0001 | 00000110 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:02 | 0904 | 00000111 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:02 | 0902 | 00000112 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:02 | 0903 | 00000113 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:02 | 0901 | 00000114 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:02 | 0901 | 00000115 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:04 | 0900 | 00000116 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:04 | 0001 | 00000117 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:04 | 0900 | 00000118 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:04 | 0001 | 00000119 | FUNCT_0                          |         Here!
+2020-12-18T14:10:04 | 0900 | 00000120 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:04 | 0001 | 00000121 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:04 | 0900 | 00000122 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:04 | 0001 | 00000123 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:04 | 0904 | 00000124 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:04 | 0902 | 00000125 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:04 | 0903 | 00000126 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:04 | 0901 | 00000127 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:04 | 0901 | 00000128 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:05 | 0900 | 00000129 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:05 | 0001 | 00000130 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:05 | 0900 | 00000131 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:05 | 0001 | 00000132 | FUNCT_0                          |         Here!
+2020-12-18T14:10:05 | 0900 | 00000133 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:05 | 0001 | 00000134 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:05 | 0900 | 00000135 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:05 | 0001 | 00000136 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:05 | 0904 | 00000137 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:05 | 0902 | 00000138 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:05 | 0903 | 00000139 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:05 | 0901 | 00000140 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:05 | 0901 | 00000141 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:06 | 0900 | 00000142 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:06 | 0001 | 00000143 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:06 | 0900 | 00000144 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:06 | 0001 | 00000145 | FUNCT_0                          |         Here!
+2020-12-18T14:10:06 | 0900 | 00000146 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:06 | 0001 | 00000147 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:06 | 0900 | 00000148 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:06 | 0001 | 00000149 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:06 | 0904 | 00000150 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:06 | 0902 | 00000151 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:06 | 0903 | 00000152 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:06 | 0901 | 00000153 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:06 | 0901 | 00000154 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:07 | 0900 | 00000155 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:07 | 0001 | 00000156 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:07 | 0900 | 00000157 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:07 | 0001 | 00000158 | FUNCT_0                          |         Here!
+2020-12-18T14:10:07 | 0900 | 00000159 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:07 | 0001 | 00000160 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:07 | 0900 | 00000161 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:07 | 0001 | 00000162 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:07 | 0904 | 00000163 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:07 | 0902 | 00000164 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:07 | 0903 | 00000165 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:07 | 0901 | 00000166 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:07 | 0901 | 00000167 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:08 | 0900 | 00000168 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:08 | 0001 | 00000169 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:08 | 0900 | 00000170 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:08 | 0001 | 00000171 | FUNCT_0                          |         Here!
+2020-12-18T14:10:08 | 0900 | 00000172 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:08 | 0001 | 00000173 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:08 | 0900 | 00000174 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:08 | 0001 | 00000175 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:08 | 0904 | 00000176 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:08 | 0902 | 00000177 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:08 | 0903 | 00000178 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:08 | 0901 | 00000179 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:08 | 0901 | 00000180 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:09 | 0900 | 00000181 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:09 | 0001 | 00000182 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:09 | 0900 | 00000183 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:09 | 0001 | 00000184 | FUNCT_0                          |         Here!
+2020-12-18T14:10:09 | 0900 | 00000185 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:09 | 0001 | 00000186 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:09 | 0900 | 00000187 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:09 | 0001 | 00000188 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:10 | 0904 | 00000189 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:10 | 0902 | 00000190 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:10 | 0903 | 00000191 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:10 | 0901 | 00000192 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:10 | 0901 | 00000193 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:11 | 0900 | 00000194 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000195 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:11 | 0900 | 00000196 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000197 | FUNCT_0                          |         Here!
+2020-12-18T14:10:11 | 0900 | 00000198 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000199 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:11 | 0900 | 00000200 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000201 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:11 | 0904 | 00000202 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:11 | 0902 | 00000203 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:11 | 0903 | 00000204 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:11 | 0901 | 00000205 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T14:10:11 | 0901 | 00000206 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T14:10:11 | 0900 | 00000207 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000208 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:11 | 0900 | 00000209 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000210 | FUNCT_0                          |         Here!
+2020-12-18T14:10:11 | 0900 | 00000211 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000212 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:11 | 0900 | 00000213 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:11 | 0001 | 00000214 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:11 | 0904 | 00000215 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:11 | 0902 | 00000216 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:11 | 0903 | 00000217 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:11 | 0901 | 00000218 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:11 | 0901 | 00000219 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:13 | 0900 | 00000220 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:13 | 0001 | 00000221 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:13 | 0900 | 00000222 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:13 | 0001 | 00000223 | FUNCT_0                          |         Here!
+2020-12-18T14:10:13 | 0900 | 00000224 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:13 | 0001 | 00000225 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:13 | 0900 | 00000226 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:13 | 0001 | 00000227 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:13 | 0904 | 00000228 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:13 | 0902 | 00000229 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:13 | 0903 | 00000230 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:13 | 0901 | 00000231 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:13 | 0901 | 00000232 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:15 | 0900 | 00000233 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000234 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:15 | 0900 | 00000235 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000236 | FUNCT_0                          |         Here!
+2020-12-18T14:10:15 | 0900 | 00000237 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000238 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:15 | 0900 | 00000239 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000240 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:15 | 0904 | 00000241 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:15 | 0902 | 00000242 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:15 | 0903 | 00000243 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:15 | 0901 | 00000244 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:15 | 0901 | 00000245 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:15 | 0900 | 00000246 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000247 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:15 | 0900 | 00000248 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000249 | FUNCT_0                          |         Here!
+2020-12-18T14:10:15 | 0900 | 00000250 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000251 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:15 | 0900 | 00000252 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:15 | 0001 | 00000253 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:16 | 0904 | 00000254 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:16 | 0902 | 00000255 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:16 | 0903 | 00000256 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:16 | 0901 | 00000257 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:16 | 0901 | 00000258 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:17 | 0900 | 00000259 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:17 | 0001 | 00000260 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:17 | 0900 | 00000261 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:17 | 0001 | 00000262 | FUNCT_0                          |         Here!
+2020-12-18T14:10:17 | 0900 | 00000263 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:17 | 0001 | 00000264 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:17 | 0900 | 00000265 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:17 | 0001 | 00000266 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:17 | 0904 | 00000267 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:17 | 0902 | 00000268 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:17 | 0903 | 00000269 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:17 | 0901 | 00000270 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:17 | 0901 | 00000271 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:18 | 0900 | 00000272 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:18 | 0001 | 00000273 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:18 | 0900 | 00000274 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:18 | 0001 | 00000275 | FUNCT_0                          |         Here!
+2020-12-18T14:10:18 | 0900 | 00000276 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:18 | 0001 | 00000277 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:18 | 0900 | 00000278 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:18 | 0001 | 00000279 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:18 | 0904 | 00000280 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:18 | 0902 | 00000281 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:18 | 0903 | 00000282 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:18 | 0901 | 00000283 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:18 | 0901 | 00000284 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:19 | 0900 | 00000285 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:19 | 0001 | 00000286 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:19 | 0900 | 00000287 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:19 | 0001 | 00000288 | FUNCT_0                          |         Here!
+2020-12-18T14:10:19 | 0900 | 00000289 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:19 | 0001 | 00000290 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:19 | 0900 | 00000291 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:19 | 0001 | 00000292 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:19 | 0904 | 00000293 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:19 | 0902 | 00000294 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:19 | 0903 | 00000295 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:19 | 0901 | 00000296 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:19 | 0901 | 00000297 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:20 | 0900 | 00000298 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:20 | 0001 | 00000299 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:20 | 0900 | 00000300 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:20 | 0001 | 00000301 | FUNCT_0                          |         Here!
+2020-12-18T14:10:20 | 0900 | 00000302 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:20 | 0001 | 00000303 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:20 | 0900 | 00000304 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:20 | 0001 | 00000305 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:20 | 0904 | 00000306 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:20 | 0902 | 00000307 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:20 | 0903 | 00000308 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:20 | 0901 | 00000309 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:20 | 0901 | 00000310 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:21 | 0900 | 00000311 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:21 | 0001 | 00000312 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:21 | 0900 | 00000313 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:21 | 0001 | 00000314 | FUNCT_0                          |         Here!
+2020-12-18T14:10:21 | 0900 | 00000315 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:21 | 0001 | 00000316 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:21 | 0900 | 00000317 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:21 | 0001 | 00000318 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:21 | 0904 | 00000319 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:21 | 0902 | 00000320 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:21 | 0903 | 00000321 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:21 | 0901 | 00000322 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:21 | 0901 | 00000323 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:22 | 0900 | 00000324 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000325 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:22 | 0900 | 00000326 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000327 | FUNCT_0                          |         Here!
+2020-12-18T14:10:22 | 0900 | 00000328 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000329 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:22 | 0900 | 00000330 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000331 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:22 | 0904 | 00000332 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:22 | 0902 | 00000333 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:22 | 0903 | 00000334 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:22 | 0901 | 00000335 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:22 | 0901 | 00000336 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:22 | 0900 | 00000337 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000338 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:22 | 0900 | 00000339 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000340 | FUNCT_0                          |         Here!
+2020-12-18T14:10:22 | 0900 | 00000341 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000342 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:22 | 0900 | 00000343 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:22 | 0001 | 00000344 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:22 | 0904 | 00000345 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:22 | 0902 | 00000346 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:22 | 0903 | 00000347 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:22 | 0901 | 00000348 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:22 | 0901 | 00000349 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:23 | 0900 | 00000350 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000351 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:23 | 0900 | 00000352 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000353 | FUNCT_0                          |         Here!
+2020-12-18T14:10:23 | 0900 | 00000354 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000355 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:23 | 0900 | 00000356 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000357 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:23 | 0904 | 00000358 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:23 | 0902 | 00000359 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:23 | 0903 | 00000360 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:23 | 0901 | 00000361 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:23 | 0901 | 00000362 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:23 | 0900 | 00000363 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000364 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:23 | 0900 | 00000365 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000366 | FUNCT_0                          |         Here!
+2020-12-18T14:10:23 | 0900 | 00000367 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000368 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:23 | 0900 | 00000369 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000370 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:23 | 0904 | 00000371 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:23 | 0902 | 00000372 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:23 | 0903 | 00000373 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:23 | 0901 | 00000374 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:23 | 0901 | 00000375 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:23 | 0900 | 00000376 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000377 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:23 | 0900 | 00000378 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000379 | FUNCT_0                          |         Here!
+2020-12-18T14:10:23 | 0900 | 00000380 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000381 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:23 | 0900 | 00000382 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000383 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:23 | 0904 | 00000384 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:23 | 0902 | 00000385 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:23 | 0903 | 00000386 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:23 | 0901 | 00000387 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:23 | 0901 | 00000388 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:23 | 0900 | 00000389 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000390 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:23 | 0900 | 00000391 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000392 | FUNCT_0                          |         Here!
+2020-12-18T14:10:23 | 0900 | 00000393 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000394 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:23 | 0900 | 00000395 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:23 | 0001 | 00000396 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:23 | 0904 | 00000397 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:23 | 0902 | 00000398 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:23 | 0903 | 00000399 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:23 | 0901 | 00000400 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:23 | 0901 | 00000401 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:24 | 0900 | 00000402 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000403 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:24 | 0900 | 00000404 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000405 | FUNCT_0                          |         Here!
+2020-12-18T14:10:24 | 0900 | 00000406 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000407 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:24 | 0900 | 00000408 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000409 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:24 | 0904 | 00000410 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:24 | 0902 | 00000411 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:24 | 0903 | 00000412 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:24 | 0901 | 00000413 | BTN_CLICK                        |     <<< Thread exiting method.
+2020-12-18T14:10:24 | 0901 | 00000414 | OnClick                          | <<< Thread exiting method.
+2020-12-18T14:10:24 | 0900 | 00000415 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000416 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:24 | 0900 | 00000417 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000418 | FUNCT_0                          |         Here!
+2020-12-18T14:10:24 | 0900 | 00000419 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000420 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:24 | 0900 | 00000421 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000422 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:24 | 0904 | 00000423 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:24 | 0902 | 00000424 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:24 | 0903 | 00000425 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:24 | 0901 | 00000426 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:24 | 0901 | 00000427 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:24 | 0900 | 00000428 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000429 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:24 | 0900 | 00000430 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000431 | FUNCT_0                          |         Here!
+2020-12-18T14:10:24 | 0900 | 00000432 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000433 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:24 | 0900 | 00000434 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000435 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:24 | 0904 | 00000436 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:24 | 0902 | 00000437 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:24 | 0903 | 00000438 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:24 | 0901 | 00000439 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:24 | 0901 | 00000440 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:24 | 0900 | 00000441 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000442 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:24 | 0900 | 00000443 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000444 | FUNCT_0                          |         Here!
+2020-12-18T14:10:24 | 0900 | 00000445 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000446 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:24 | 0900 | 00000447 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000448 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:24 | 0904 | 00000449 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:24 | 0902 | 00000450 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:24 | 0903 | 00000451 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:24 | 0901 | 00000452 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:24 | 0901 | 00000453 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:24 | 0900 | 00000454 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000455 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:24 | 0900 | 00000456 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000457 | FUNCT_0                          |         Here!
+2020-12-18T14:10:24 | 0900 | 00000458 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000459 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:24 | 0900 | 00000460 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:24 | 0001 | 00000461 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:24 | 0904 | 00000462 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:24 | 0902 | 00000463 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:24 | 0903 | 00000464 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:24 | 0901 | 00000465 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:24 | 0901 | 00000466 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:25 | 0900 | 00000467 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000468 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:25 | 0900 | 00000469 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000470 | FUNCT_0                          |         Here!
+2020-12-18T14:10:25 | 0900 | 00000471 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000472 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:25 | 0900 | 00000473 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000474 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:25 | 0904 | 00000475 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:25 | 0902 | 00000476 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:25 | 0903 | 00000477 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:25 | 0901 | 00000478 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:25 | 0901 | 00000479 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:25 | 0900 | 00000480 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000481 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:25 | 0900 | 00000482 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000483 | FUNCT_0                          |         Here!
+2020-12-18T14:10:25 | 0900 | 00000484 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000485 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:25 | 0900 | 00000486 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000487 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:25 | 0904 | 00000488 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:25 | 0902 | 00000489 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:25 | 0903 | 00000490 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:25 | 0901 | 00000491 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:25 | 0901 | 00000492 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:25 | 0900 | 00000493 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000494 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:25 | 0900 | 00000495 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000496 | FUNCT_0                          |         Here!
+2020-12-18T14:10:25 | 0900 | 00000497 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000498 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:25 | 0900 | 00000499 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:25 | 0001 | 00000500 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:25 | 0904 | 00000501 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:25 | 0902 | 00000502 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:25 | 0903 | 00000503 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:25 | 0901 | 00000504 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:25 | 0901 | 00000505 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:27 | 0900 | 00000506 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:27 | 0001 | 00000507 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:27 | 0900 | 00000508 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:27 | 0001 | 00000509 | FUNCT_0                          |         Here!
+2020-12-18T14:10:27 | 0900 | 00000510 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:27 | 0001 | 00000511 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:27 | 0900 | 00000512 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:27 | 0001 | 00000513 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:27 | 0904 | 00000514 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:27 | 0902 | 00000515 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:27 | 0903 | 00000516 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:27 | 0901 | 00000517 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:27 | 0901 | 00000518 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:28 | 0900 | 00000519 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:28 | 0001 | 00000520 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:28 | 0900 | 00000521 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:28 | 0001 | 00000522 | FUNCT_0                          |         Here!
+2020-12-18T14:10:28 | 0900 | 00000523 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:28 | 0001 | 00000524 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:28 | 0900 | 00000525 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:28 | 0001 | 00000526 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:28 | 0904 | 00000527 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:28 | 0902 | 00000528 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:28 | 0903 | 00000529 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:28 | 0901 | 00000530 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:28 | 0901 | 00000531 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:29 | 0900 | 00000532 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:29 | 0001 | 00000533 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:29 | 0900 | 00000534 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:29 | 0001 | 00000535 | FUNCT_0                          |         Here!
+2020-12-18T14:10:29 | 0900 | 00000536 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:29 | 0001 | 00000537 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:29 | 0900 | 00000538 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:29 | 0001 | 00000539 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:29 | 0904 | 00000540 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:29 | 0902 | 00000541 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:29 | 0903 | 00000542 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:29 | 0901 | 00000543 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:29 | 0901 | 00000544 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:30 | 0900 | 00000545 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:30 | 0001 | 00000546 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:30 | 0900 | 00000547 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:30 | 0001 | 00000548 | FUNCT_0                          |         Here!
+2020-12-18T14:10:30 | 0900 | 00000549 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:30 | 0001 | 00000550 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:30 | 0900 | 00000551 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:30 | 0001 | 00000552 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:30 | 0904 | 00000553 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:30 | 0902 | 00000554 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:30 | 0903 | 00000555 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:30 | 0901 | 00000556 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:30 | 0901 | 00000557 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:31 | 0900 | 00000558 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000559 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:31 | 0900 | 00000560 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000561 | FUNCT_0                          |         Here!
+2020-12-18T14:10:31 | 0900 | 00000562 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000563 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:31 | 0900 | 00000564 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000565 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:31 | 0904 | 00000566 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:31 | 0902 | 00000567 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:31 | 0903 | 00000568 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:31 | 0901 | 00000569 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:31 | 0901 | 00000570 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:31 | 0900 | 00000571 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000572 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:31 | 0900 | 00000573 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000574 | FUNCT_0                          |         Here!
+2020-12-18T14:10:31 | 0900 | 00000575 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000576 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:31 | 0900 | 00000577 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:31 | 0001 | 00000578 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:31 | 0904 | 00000579 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:31 | 0902 | 00000580 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:31 | 0903 | 00000581 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:31 | 0901 | 00000582 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:31 | 0901 | 00000583 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:32 | 0900 | 00000584 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:32 | 0001 | 00000585 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:32 | 0900 | 00000586 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:32 | 0001 | 00000587 | FUNCT_0                          |         Here!
+2020-12-18T14:10:32 | 0900 | 00000588 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:32 | 0001 | 00000589 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:32 | 0900 | 00000590 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:32 | 0001 | 00000591 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:32 | 0904 | 00000592 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:32 | 0902 | 00000593 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:32 | 0903 | 00000594 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:32 | 0901 | 00000595 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:32 | 0901 | 00000596 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:33 | 0900 | 00000597 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:33 | 0001 | 00000598 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:33 | 0900 | 00000599 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:33 | 0001 | 00000600 | FUNCT_0                          |         Here!
+2020-12-18T14:10:33 | 0900 | 00000601 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:33 | 0001 | 00000602 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:33 | 0900 | 00000603 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:33 | 0001 | 00000604 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:33 | 0904 | 00000605 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:33 | 0902 | 00000606 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:33 | 0903 | 00000607 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:33 | 0901 | 00000608 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:33 | 0901 | 00000609 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:47 | 0900 | 00000610 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:47 | 0001 | 00000611 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:47 | 0900 | 00000612 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:47 | 0001 | 00000613 | FUNCT_0                          |         Here!
+2020-12-18T14:10:47 | 0900 | 00000614 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:47 | 0001 | 00000615 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:47 | 0900 | 00000616 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:47 | 0001 | 00000617 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:47 | 0904 | 00000618 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:47 | 0902 | 00000619 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:47 | 0903 | 00000620 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:47 | 0901 | 00000621 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:47 | 0901 | 00000622 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:49 | 0900 | 00000623 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:49 | 0001 | 00000624 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:49 | 0900 | 00000625 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:49 | 0001 | 00000626 | FUNCT_0                          |         Here!
+2020-12-18T14:10:49 | 0900 | 00000627 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:49 | 0001 | 00000628 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:49 | 0900 | 00000629 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:49 | 0001 | 00000630 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:49 | 0904 | 00000631 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:49 | 0902 | 00000632 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:49 | 0903 | 00000633 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:49 | 0901 | 00000634 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:49 | 0901 | 00000635 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:50 | 0900 | 00000636 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:50 | 0001 | 00000637 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:50 | 0900 | 00000638 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:50 | 0001 | 00000639 | FUNCT_0                          |         Here!
+2020-12-18T14:10:50 | 0900 | 00000640 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:50 | 0001 | 00000641 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:50 | 0900 | 00000642 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:50 | 0001 | 00000643 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:50 | 0904 | 00000644 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:50 | 0902 | 00000645 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:50 | 0903 | 00000646 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:50 | 0901 | 00000647 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:50 | 0901 | 00000648 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:10:51 | 0900 | 00000649 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:10:51 | 0001 | 00000650 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:10:51 | 0900 | 00000651 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:10:51 | 0001 | 00000652 | FUNCT_0                          |         Here!
+2020-12-18T14:10:51 | 0900 | 00000653 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:10:51 | 0001 | 00000654 | FUNCT_1                          |             Here too!
+2020-12-18T14:10:51 | 0900 | 00000655 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:10:51 | 0001 | 00000656 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:10:51 | 0904 | 00000657 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:10:51 | 0902 | 00000658 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:10:51 | 0903 | 00000659 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:10:51 | 0901 | 00000660 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:10:51 | 0901 | 00000661 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:11:03 | 0900 | 00000662 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:11:03 | 0001 | 00000663 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:11:03 | 0900 | 00000664 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:11:03 | 0001 | 00000665 | FUNCT_0                          |         Here!
+2020-12-18T14:11:03 | 0900 | 00000666 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:11:03 | 0001 | 00000667 | FUNCT_1                          |             Here too!
+2020-12-18T14:11:03 | 0900 | 00000668 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:11:03 | 0001 | 00000669 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:11:03 | 0904 | 00000670 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:11:03 | 0902 | 00000671 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:11:03 | 0903 | 00000672 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:11:03 | 0901 | 00000673 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:11:03 | 0901 | 00000674 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:11:25 | 0900 | 00000675 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:11:25 | 0001 | 00000676 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:11:25 | 0900 | 00000677 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:11:25 | 0001 | 00000678 | FUNCT_0                          |         Here!
+2020-12-18T14:11:25 | 0900 | 00000679 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:11:25 | 0001 | 00000680 | FUNCT_1                          |             Here too!
+2020-12-18T14:11:25 | 0900 | 00000681 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:11:25 | 0001 | 00000682 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:11:25 | 0904 | 00000683 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:11:25 | 0902 | 00000684 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:11:25 | 0903 | 00000685 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:11:25 | 0901 | 00000686 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:11:25 | 0901 | 00000687 | WmMouseUp                        | <<< Thread exiting method.
+2020-12-18T14:11:26 | 0900 | 00000688 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T14:11:26 | 0001 | 00000689 | BTN_CLICK                        |     Button clicked.
+2020-12-18T14:11:26 | 0900 | 00000690 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T14:11:26 | 0001 | 00000691 | FUNCT_0                          |         Here!
+2020-12-18T14:11:26 | 0900 | 00000692 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T14:11:26 | 0001 | 00000693 | FUNCT_1                          |             Here too!
+2020-12-18T14:11:26 | 0900 | 00000694 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T14:11:26 | 0001 | 00000695 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T14:11:26 | 0904 | 00000696 | FUNCT_1                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T14:11:26 | 0902 | 00000697 | FUNCT_1                          |             <<< Thread exiting method. FAILED.
+2020-12-18T14:11:26 | 0903 | 00000698 | FUNCT_0                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T14:11:26 | 0901 | 00000699 | OnMouseUp                        |     <<< Thread exiting method.
+2020-12-18T14:11:26 | 0901 | 00000700 | WmMouseUp                        | <<< Thread exiting method.

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.PixelFormats;
+using FORBES_5.LOGGER_NAMESPACE;
 
 namespace FORBES_5.ASCII_RENDER_NAMESPACE
 {
@@ -27,6 +28,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
         /// <returns>1 on generic failure.</returns>
         public static int RENDER_IMAGE(List<char[,]> FRAME_SET, int FRAME_DELAY = 0, int LOOP_COUNT = 10)
         {
+            LOGGER.METHOD_ENTER();
             try
             {
                 char[,] SAMPLED_FRAME = FRAME_SET[0]; //Extract the first frame from the image so we can get some details on what was passed to us.
@@ -54,7 +56,13 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
                 }
                 GC.Collect(); //Force garbage collection.
             }
-            catch (Exception) { return -1; }
+            catch (Exception EX) 
+            {
+                LOGGER.EXCEPTION(EX.Message);
+                LOGGER.METHOD_EXIT_FAIL();
+                return -1; 
+            }
+            LOGGER.METHOD_EXIT_SUCCESS();
             return 0;
         }
         
@@ -71,6 +79,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
         /// List Element = FRAME[ROW][COLUMN]</returns>
         public static List<char[,]> PROCESS_IMAGE(string FILEPATH, int RESIZE_X = 0, int RESIZE_Y = 0)
         {
+            LOGGER.METHOD_ENTER();
             List<char[,]> FRAME_LIST = new List<char[,]>();
             if (!File.Exists(FILEPATH)) //Check if the file exists.
                     throw new Exception("File does not exist"); //The file does not exist.
@@ -95,8 +104,14 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
                     FRAME_LIST.Add(FRAME_CHAR_ARRAY); //Add the ASCII art frame to the list.
                 }
             }
-            catch(Exception){throw;} //Throw any problems up to the calling method to deal with.
+            catch(Exception EX)
+            {
+                LOGGER.EXCEPTION(EX.Message);
+                LOGGER.METHOD_EXIT_FAIL();
+                throw;
+            } //Throw any problems up to the calling method to deal with.
             GC.Collect(); //Force cleanup.
+            LOGGER.METHOD_EXIT_SUCCESS();
             return FRAME_LIST;
         }
 
@@ -109,6 +124,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
         /// <returns>A byte array of luminescence values.</returns>
         private static byte[,] CONVERT_IMAGE(Image<Rgba32> IMAGE, int X_SIZE = 0, int Y_SIZE = 0)
         {
+            LOGGER.METHOD_ENTER();
             if (X_SIZE != 0 && Y_SIZE != 0) //If a new X and Y size is defined...
                 IMAGE.Mutate(VAR => VAR.Resize(X_SIZE, Y_SIZE)); //Scale the bitmap.
             int WIDTH = IMAGE.Width; //Define the width.
@@ -126,6 +142,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
                     PIXEL_ARRAY[X, Y] = PIXEL_GRAYSCALE; //Save the value to the array.
                 }
             }
+            LOGGER.METHOD_EXIT_SUCCESS();
             return PIXEL_ARRAY; //Return the array.
         }
 
@@ -136,6 +153,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
         /// <returns>A character array of an image ready to print.</returns>
         private static char[,] CONVERT_TO_ASCII(byte[,] BYTE_ARRAY)
         {
+            LOGGER.METHOD_ENTER();
             int WIDTH = BYTE_ARRAY.GetLength(0); //Get the width of the image.
             int HEIGHT = BYTE_ARRAY.GetLength(1); //Get the height of the image.
             char[,] CHAR_ARRAY = new char[WIDTH, HEIGHT];
@@ -189,6 +207,7 @@ namespace FORBES_5.ASCII_RENDER_NAMESPACE
                     }
                 }
             }
+            LOGGER.METHOD_EXIT();
             return CHAR_ARRAY;
         }
     }

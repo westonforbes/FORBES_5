@@ -53,6 +53,99 @@
             <param name="BYTE_ARRAY">The byte array to convert.</param>
             <returns>A character array of an image ready to print.</returns>
         </member>
+        <member name="T:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS">
+            <summary>
+            Custom extensions for strings.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.TRUNCATE_AND_PAD(System.String,System.Int32)">
+            <summary>
+            This function will truncate and pad any string to length.
+            </summary>
+            <param name="VALUE">The string to truncate and pad.</param>
+            <param name="LENGTH">The number of characters to adjust to.</param>
+            <returns>The truncated and padded string.</returns>
+        </member>
+        <member name="T:FORBES_5.LOGGER_NAMESPACE.LOGGER">
+            <summary>
+            This class handles all the logging needs of a small application.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.LOGGER_NAMESPACE.LOGGER.LOG_FILE_LOCATION">
+            <summary>
+            The location of the currently used log file.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.#cctor">
+            <summary>
+            Class contructor.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.ERASE_OLD_LOGS">
+            <summary>
+            This method will inspect the LOGS folder and erase any old log files.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.CONSTRUCT_LOG_FILE_NAME">
+            <summary>
+            This method creates the name of the log.
+            </summary>
+            <returns>The name of the log (full path).</returns>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.LOG(System.String,System.Int32,System.Int32)">
+            <summary>
+            This method will log a entry to the log.
+            </summary>
+            <param name="GROUP">
+            <para>Code on how to file the entry.</para>
+            <para>The programmer can decide how to lay this out. Any values between and including 1 and 999 are accepted.</para>
+            <para>This class uses codes in the 900 range for reserved messages.</para>
+            <para>Invalid codes will default to zero.</para>
+            </param>
+            <param name="MESSAGE">The message you wish to write to the log.</param>
+            <param name="STACK_TRACE_FRAME">This defaults to 2. Which will show the method that called this method.</param>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.METHOD_ENTER">
+            <summary>
+            Call this method on entering a new method you wish to track. Be sure to include one of the EXIT methods too, otherwise indentation will be off.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.METHOD_EXIT">
+            <summary>
+            Call this method on exiting a method you wish to track. Be sure to include METHOD_ENTER at the beginning of the method.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.METHOD_EXIT_FAIL">
+            <summary>
+            Call this method on exiting a method you wish to track. Be sure to include METHOD_ENTER at the beginning of the method.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.METHOD_EXIT_SUCCESS">
+            <summary>
+            Call this method on exiting a method you wish to track. Be sure to include METHOD_ENTER at the beginning of the method.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.EXCEPTION(System.String)">
+            <summary>
+            Call this method when an exception is thrown. Pass the exception message along as well.
+            </summary>
+            <param name="EX_MESSAGE">The exception message.</param>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.OPEN_LOG">
+            <summary>
+            This method will attempt to open the log file in the default viewer.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FORBES_5.LOGGER_NAMESPACE.LOGGER.GET_CALLING_METHOD(System.Int32)">
+            <summary>
+            This method will return the calling method. It defaults to 2 because most 
+            of the time we only care about whos calling from outside this class,
+            so we have to go past the actual calling frame up an extra level to 2.
+            </summary>
+            <param name="FRAME_LEVEL">The frame level to inspect.</param>
+            <returns>The name of the method.</returns>
+        </member>
         <member name="T:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH">
             <summary>
             This class is a simple stopwatch class that does not use background resources (no timer thread). It simply calculates the time difference

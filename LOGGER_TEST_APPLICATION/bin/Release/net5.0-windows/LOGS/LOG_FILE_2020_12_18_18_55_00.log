@@ -1,0 +1,27 @@
+      Timestamp     | Code | Entry ID |    Method Name                   | Message
+2020-12-18T18:55:00 | 0910 | 00000000 | STATIC CONSTRUCTOR               | *** Log created.
+2020-12-18T18:55:00 | 0900 | 00000001 | ERASE_OLD_LOGS                   | >>> Thread entering method.
+2020-12-18T18:55:00 | 0910 | 00000002 | ERASE_OLD_LOGS                   |     Checking for old log files.
+2020-12-18T18:55:00 | 0910 | 00000003 | ERASE_OLD_LOGS                   |     Checking file: LOG_FILE_2020_12_18_14_02_47.log
+2020-12-18T18:55:00 | 0910 | 00000004 | ERASE_OLD_LOGS                   |     Deleting file: LOG_FILE_2020_12_18_14_02_47.log
+2020-12-18T18:55:00 | 0901 | 00000005 | ERASE_OLD_LOGS                   | <<< Thread exiting method.
+2020-12-18T18:55:00 | 0900 | 00000006 | CONSTRUCTOR                      | >>> Thread entering method.
+2020-12-18T18:55:00 | 0001 | 00000007 | CONSTRUCTOR                      |     The form initialized.
+2020-12-18T18:55:00 | 0901 | 00000008 | CONSTRUCTOR                      | <<< Thread exiting method.
+2020-12-18T18:55:00 | 0900 | 00000009 | FORM_LOAD                        | >>> Thread entering method.
+2020-12-18T18:55:00 | 0001 | 00000010 | FORM_LOAD                        |     The form loaded.
+2020-12-18T18:55:00 | 0901 | 00000011 | FORM_LOAD                        | <<< Thread exiting method.
+2020-12-18T18:55:02 | 0900 | 00000012 | BTN_CLICK                        | >>> Thread entering method.
+2020-12-18T18:55:02 | 0001 | 00000013 | BTN_CLICK                        |     Button clicked.
+2020-12-18T18:55:02 | 0900 | 00000014 | FUNCT_0                          |     >>> Thread entering method.
+2020-12-18T18:55:02 | 0001 | 00000015 | FUNCT_0                          |         Here!
+2020-12-18T18:55:02 | 0900 | 00000016 | FUNCT_1                          |         >>> Thread entering method.
+2020-12-18T18:55:02 | 0001 | 00000017 | FUNCT_1                          |             Here too!
+2020-12-18T18:55:02 | 0900 | 00000018 | FUNCT_2                          |             >>> Thread entering method.
+2020-12-18T18:55:02 | 0001 | 00000019 | FUNCT_2                          |                 Gonna divide by zero.
+2020-12-18T18:55:02 | 0904 | 00000020 | FUNCT_2                          |                 XXX Exception: Attempted to divide by zero.
+2020-12-18T18:55:02 | 0902 | 00000021 | FUNCT_2                          |             <<< Thread exiting method. FAILED.
+2020-12-18T18:55:02 | 0903 | 00000022 | FUNCT_1                          |         <<< Thread exiting method. SUCCESS.
+2020-12-18T18:55:02 | 0901 | 00000023 | FUNCT_0                          |     <<< Thread exiting method.
+2020-12-18T18:55:02 | 0901 | 00000024 | BTN_CLICK                        | <<< Thread exiting method.
+2020-12-18T18:55:07 | 0900 | 00000025 | BTN_VIEW_LOG_CLICK               | >>> Thread entering method.
