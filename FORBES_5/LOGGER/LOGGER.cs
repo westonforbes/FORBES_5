@@ -117,7 +117,9 @@ namespace FORBES_5.LOGGER_NAMESPACE
             OUTPUT_MESSAGE = TIME_STAMP.ToString("s") + " | "; //Construct the output message.
             OUTPUT_MESSAGE += GROUP.ToString("0000") + " | "; //Construct the output message.
             OUTPUT_MESSAGE += ENTRY_ID.ToString("00000000") + " | "; //Construct the output message.
-            OUTPUT_MESSAGE += CALLING_METHOD.TRUNCATE_AND_PAD(32) + " | ";
+            CALLING_METHOD = CALLING_METHOD.PadRight(32, ' '); //Pad string.
+            CALLING_METHOD = CALLING_METHOD.Substring(0, 32); //Truncate string.
+            OUTPUT_MESSAGE += CALLING_METHOD + " | ";
             string PAD = "";
             for(int i = 0; i < INDENT_LEVEL; i++)
             {

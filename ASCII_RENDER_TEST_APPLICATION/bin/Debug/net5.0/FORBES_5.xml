@@ -58,13 +58,29 @@
             Custom extensions for strings.
             </summary>
         </member>
-        <member name="M:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.TRUNCATE_AND_PAD(System.String,System.Int32)">
+        <member name="P:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.LOGGER_ON">
+            <summary>
+            Turn on this property to activate the logger.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.TRUNCATE_AND_PAD(System.String,System.Int32,System.Char)">
             <summary>
             This function will truncate and pad any string to length.
             </summary>
             <param name="VALUE">The string to truncate and pad.</param>
             <param name="LENGTH">The number of characters to adjust to.</param>
+            <param name ="PAD_CHARACTER">A character you wish to pad the string with. Defaults to a space character.</param>
             <returns>The truncated and padded string.</returns>
+        </member>
+        <member name="M:FORBES_5.EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.CENTER(System.String,System.Int32,System.Char)">
+            <summary>
+            This will center a string inside a string of a longer length. Note that this has not been protected from every case.
+            It is wrapped in a try-catch but be sure to test your own edge cases and such because this is a pretty basic centering tool, mostly for use on things like console table headers.
+            </summary>
+            <param name="VALUE">The string to center.</param>
+            <param name="LENGTH">How many characters to center it in.</param>
+            <param name="PAD_CHARACTER">The character to pad with, defaults to space.</param>
+            <returns></returns>
         </member>
         <member name="T:FORBES_5.LOGGER_NAMESPACE.LOGGER">
             <summary>

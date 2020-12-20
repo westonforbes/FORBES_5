@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Um3IFpF6D0gRfsgoC5Rw0aku6QbU6Jun+HxuUj2kRXKKoPtLfaVdLA4zvawLpje3huiTHM/wI52yCia7ZqGGSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wforbes\\Documents\\SOFTWARE\\FORBES_5_LIBRARY\\EXTENSIONS_TEST_APPLICATION\\EXTENSIONS_TEST_APPLICATION.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wforbes\\.nuget\\packages\\sixlabors.imagesharp\\1.0.2\\sixlabors.imagesharp.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

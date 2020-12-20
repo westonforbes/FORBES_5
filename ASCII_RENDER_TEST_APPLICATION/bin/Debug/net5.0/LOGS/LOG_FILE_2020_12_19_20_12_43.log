@@ -1,0 +1,49 @@
+      Timestamp     | Code | Entry ID |    Method Name                   | Message
+2020-12-19T20:12:43 | 0900 | 00000000 | STATIC CONSTRUCTOR               | >>> Thread entering method.
+2020-12-19T20:12:43 | 0910 | 00000001 | STATIC CONSTRUCTOR               |     *** Log created.
+2020-12-19T20:12:43 | 0900 | 00000002 | ERASE_OLD_LOGS                   |     >>> Thread entering method.
+2020-12-19T20:12:43 | 0910 | 00000003 | ERASE_OLD_LOGS                   |         Checking for old log files.
+2020-12-19T20:12:43 | 0901 | 00000004 | ERASE_OLD_LOGS                   |     <<< Thread exiting method.
+2020-12-19T20:12:43 | 0901 | 00000005 | STATIC CONSTRUCTOR               | <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000006 | Main                             | >>> Thread entering method.
+2020-12-19T20:12:43 | 0900 | 00000007 | PROCESS_IMAGE                    |     >>> Thread entering method.
+2020-12-19T20:12:43 | 0900 | 00000008 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000009 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000010 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000011 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000012 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000013 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000014 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000015 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000016 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000017 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000018 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000019 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000020 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000021 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000022 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000023 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000024 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000025 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000026 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000027 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000028 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000029 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000030 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000031 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000032 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000033 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000034 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000035 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0900 | 00000036 | CONVERT_IMAGE                    |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0903 | 00000037 | CONVERT_IMAGE                    |         <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000038 | CONVERT_TO_ASCII                 |         >>> Thread entering method.
+2020-12-19T20:12:43 | 0901 | 00000039 | CONVERT_TO_ASCII                 |         <<< Thread exiting method.
+2020-12-19T20:12:43 | 0903 | 00000040 | PROCESS_IMAGE                    |     <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:43 | 0900 | 00000041 | RENDER_IMAGE                     |     >>> Thread entering method.
+2020-12-19T20:12:54 | 0903 | 00000042 | RENDER_IMAGE                     |     <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:54 | 0000 | 00000043 | Main                             |     Return code: 0
+2020-12-19T20:12:54 | 0903 | 00000044 | Main                             | <<< Thread exiting method. SUCCESS.
+2020-12-19T20:12:54 | 0900 | 00000045 | OPEN_LOG                         | >>> Thread entering method.
+2020-12-19T20:12:54 | 0912 | 00000046 | LOG                              |     Opened log file.
+2020-12-19T20:12:54 | 0903 | 00000047 | OPEN_LOG                         | <<< Thread exiting method. SUCCESS.
