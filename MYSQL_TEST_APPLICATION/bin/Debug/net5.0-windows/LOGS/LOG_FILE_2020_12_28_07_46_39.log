@@ -1,0 +1,37 @@
+      Timestamp     | Code | Entry ID |    Method Name                   | Message
+2020-12-28T07:46:39 | 0900 | 00000000 | STATIC CONSTRUCTOR               | >>> Thread entering method.
+2020-12-28T07:46:39 | 0910 | 00000001 | STATIC CONSTRUCTOR               |     *** Log created.
+2020-12-28T07:46:39 | 0900 | 00000002 | ERASE_OLD_LOGS                   |     >>> Thread entering method.
+2020-12-28T07:46:39 | 0910 | 00000003 | ERASE_OLD_LOGS                   |         Checking for old log files.
+2020-12-28T07:46:39 | 0910 | 00000004 | ERASE_OLD_LOGS                   |         Checking file: LOG_FILE_2020_12_22_13_17_58.log
+2020-12-28T07:46:39 | 0910 | 00000005 | ERASE_OLD_LOGS                   |         Deleting file: LOG_FILE_2020_12_22_13_17_58.log
+2020-12-28T07:46:39 | 0901 | 00000006 | ERASE_OLD_LOGS                   |     <<< Thread exiting method.
+2020-12-28T07:46:39 | 0901 | 00000007 | STATIC CONSTRUCTOR               | <<< Thread exiting method.
+2020-12-28T07:46:39 | 0900 | 00000008 | CONSTRUCTOR                      | >>> Thread entering method.
+2020-12-28T07:46:39 | 0901 | 00000009 | CONSTRUCTOR                      | <<< Thread exiting method.
+2020-12-28T07:46:39 | 0900 | 00000010 | CONSTRUCTOR                      | >>> Thread entering method.
+2020-12-28T07:46:39 | 0901 | 00000011 | CONSTRUCTOR                      | <<< Thread exiting method.
+2020-12-28T07:46:40 | 0900 | 00000012 | BTN_CONNECT_CLICK                | >>> Thread entering method.
+2020-12-28T07:46:40 | 0900 | 00000013 | CONNECT_TO_HOST                  |     >>> Thread entering method.
+2020-12-28T07:46:40 | 0000 | 00000014 | CONNECT_TO_HOST                  |         Connection string constructed: server=localhost;User ID=root;Port=3306;Password={Hidden, nice try}
+2020-12-28T07:46:40 | 0900 | 00000015 | CONNECTION_STATE_CHANGED         |         >>> Thread entering method.
+2020-12-28T07:46:40 | 0000 | 00000016 | CONNECTION_STATE_CHANGED         |             Connection state change detected. Current state : Connecting
+2020-12-28T07:46:40 | 0901 | 00000017 | CONNECTION_STATE_CHANGED         |         <<< Thread exiting method.
+2020-12-28T07:46:41 | 0900 | 00000018 | CONNECTION_STATE_CHANGED         |         >>> Thread entering method.
+2020-12-28T07:46:41 | 0000 | 00000019 | CONNECTION_STATE_CHANGED         |             Connection state change detected. Current state : Open
+2020-12-28T07:46:41 | 0901 | 00000020 | CONNECTION_STATE_CHANGED         |         <<< Thread exiting method.
+2020-12-28T07:46:41 | 0903 | 00000021 | CONNECT_TO_HOST                  |     <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:41 | 0900 | 00000022 | GET_DATABASE_LISTING             |     >>> Thread entering method.
+2020-12-28T07:46:41 | 0903 | 00000023 | GET_DATABASE_LISTING             |     <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:41 | 0903 | 00000024 | BTN_CONNECT_CLICK                | <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:42 | 0900 | 00000025 | BTN_USE_SELECTED_DB_CLICK        | >>> Thread entering method.
+2020-12-28T07:46:42 | 0900 | 00000026 | CONNECT_TO_DATABASE              |     >>> Thread entering method.
+2020-12-28T07:46:42 | 0000 | 00000027 | CONNECT_TO_DATABASE              |         Connection to t_plex_db successful.
+2020-12-28T07:46:42 | 0903 | 00000028 | CONNECT_TO_DATABASE              |     <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:42 | 0900 | 00000029 | GET_TABLE_LISTING                |     >>> Thread entering method.
+2020-12-28T07:46:42 | 0903 | 00000030 | GET_TABLE_LISTING                |     <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:42 | 0903 | 00000031 | BTN_USE_SELECTED_DB_CLICK        | <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:44 | 0900 | 00000032 | BTN_USE_SELECTED_TABLE_CLICK     | >>> Thread entering method.
+2020-12-28T07:46:45 | 0900 | 00000033 | GET_TABLE                        |     >>> Thread entering method.
+2020-12-28T07:46:45 | 0903 | 00000034 | GET_TABLE                        |     <<< Thread exiting method. SUCCESS.
+2020-12-28T07:46:45 | 0903 | 00000035 | BTN_USE_SELECTED_TABLE_CLICK     | <<< Thread exiting method. SUCCESS.

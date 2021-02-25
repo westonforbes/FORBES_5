@@ -20,3 +20,4 @@ C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\LOGGER_TEST_APPLICATION\obj
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\LOGGER_TEST_APPLICATION\obj\Release\net5.0-windows\LOGGER_TEST_APPLICATION.pdb
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\LOGGER_TEST_APPLICATION\obj\Release\net5.0-windows\LOGGER_TEST_APPLICATION.genruntimeconfig.cache
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\LOGGER_TEST_APPLICATION\obj\Release\net5.0-windows\LOGGER_TEST_APPLICATION.MAIN_FORM.resources
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\LOGGER_TEST_APPLICATION\bin\Release\net5.0-windows\MySqlConnector.dll

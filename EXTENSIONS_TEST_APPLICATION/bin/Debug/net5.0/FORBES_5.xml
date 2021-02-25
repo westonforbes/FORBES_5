@@ -162,6 +162,105 @@
             <param name="FRAME_LEVEL">The frame level to inspect.</param>
             <returns>The name of the method.</returns>
         </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS">
+            <summary>
+            Structure for MySQL connection parameters.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS.HOST">
+            <summary>
+            The ip address of the server.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS.DATABASE">
+            <summary>
+            The database name.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS.USER">
+            <summary>
+            The username to connect with.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS.PASSWORD">
+            <summary>
+            The password for USER.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER">
+            <summary>
+            A structure to hold SQL parameters. This is done to prevent SQL injections. Use parameters for any part of a command that a user can influence.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER.ESCAPE_STRING">
+            <summary>
+            The sub-string to search for in a command string.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER.STRING_TO_INSERT">
+            <summary>
+            The string to insert at the location of the found ESCAPE_STRING.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS">
+            <summary>
+            This class handles safe communications with a MySQL server.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.LOGGER_ON">
+            <summary>
+            Set this to true to activate the event logger for this class.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.FULLY_CONNECTED">
+            <summary>
+            True when fully connected, false under all other conditions.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION">
+            <summary>
+            The MySQL connection object.
+            </summary>
+        </member>
+        <member name="E:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED">
+            <summary>
+            This event is raised when the connection state is changed. The connection state is embedded in a custom EventArgs
+            called CONNECTION_CHANGED_EVENT_ARGS.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS">
+            <summary>
+            Custom EventArgs structure, holds the connection state in FULLY_CONNECTED.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS.#ctor(System.Boolean)">
+            <summary>
+            Constructor for CONNECTION_CHANGED_EVENT_ARGS class, a value must be assigned on initialization.
+            </summary>
+            <param name="VALUE"> Current connection state.</param>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS.FULLY_CONNECTED">
+            <summary>
+            Current Connection State.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.#ctor(System.Boolean)">
+            <summary>
+            Class constructor.
+            </summary>
+            <param name="LOGGER_ON">Set to true if you want this class to output log information.</param>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECT_TO_DB(FORBES_5.MYSQL_COMS_NAMESPACE.CONNECTION_PARAMETERS)">
+            <summary>
+            Connects to the database defined in intialization.
+            </summary>
+            <returns>
+            <para> 0: Connection success.</para>
+            <para> 1: A connection-level error occurred while opening the connection.</para>
+            <para> 2: Cannot open a connection without specifying a data source or server.</para>
+            <para> 3: Unhandled exception type.</para>
+            </returns>
+        </member>
         <member name="T:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH">
             <summary>
             This class is a simple stopwatch class that does not use background resources (no timer thread). It simply calculates the time difference

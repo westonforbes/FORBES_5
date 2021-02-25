@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ChkgcwYhTaMH3M4UjdSxzXamIVSIM/ACFsNM/q8tF83atr82HIFv5J1oKnV7Qe1+nT/BVSRzzwlgFWhY4UO+Jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wforbes\\Documents\\SOFTWARE\\FORBES_5_LIBRARY\\MY_MATH_TEST_APPLICATION\\MY_MATH_TEST_APPLICATION.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wforbes\\.nuget\\packages\\sixlabors.imagesharp\\1.0.2\\sixlabors.imagesharp.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

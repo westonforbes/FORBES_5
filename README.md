@@ -6,7 +6,7 @@ This library contains methods and classes I've written that I find reusable and 
 
 ## Documentation Notes
 
-All publicly accessible methods and objects are documented with XML documentation. This allows documentation to be viewed in the Visual Studio Object Browser and to work with IntelliSense. https://docs.microsoft.com/en-us/dotnet/csharp/codedoc
+All publicly accessible methods and objects are documented with XML documentation. This allows documentation to be viewed in the Visual Studio Object Browser and to work with IntelliSense. https://docs.microsoft.com/en-us/dotnet/csharp/codedoc Its easier to keep up on documentation if I just thoroughly keep the IntelliSense documentation robust.
 
 Private methods and objects are documented with traditional double-slash comments.
 
@@ -27,3 +27,11 @@ This namespace handles everything needed for simple application logging. It will
 ### EXTENSIONS_NAMESPACE
 
 Holds custom extensions for different data types. Just things I have found useful.
+
+### MY_MATH_NAMESPACE
+
+Holds methods that I use repeatedly that are math related, stuff like linear regressions, vector calculations and such.
+
+### MYSQL_COMS
+
+Holds methods I've canned for making MySQL communications easier.

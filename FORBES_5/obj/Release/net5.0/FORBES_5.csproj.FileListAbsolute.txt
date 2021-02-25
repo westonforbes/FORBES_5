@@ -10,3 +10,7 @@ C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.dll
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\ref\FORBES_5.dll
 C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.pdb
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\MySql.Data.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\MySqlConnector.dll
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\bin\Release\net5.0\MySqlConnector.xml
+C:\Users\wforbes\Documents\SOFTWARE\FORBES_5_LIBRARY\FORBES_5\obj\Release\net5.0\FORBES_5.csproj.CopyComplete

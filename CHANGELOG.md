@@ -4,6 +4,14 @@
 
 Revision Schema is ISO8601 (YYYY-MM-DD) followed by a two digit daily revision number.
 
+## 2021-02-25-01
+
+I have not been good about my last pushes. I've been working on other aspects of my job too (PLCs, Hardware) so not much has happened here. Lemmie see whats changed.
+
+* Added method UPDATE_VECTOR to MY_MATH. It simply takes the amount of time that has passed to it and updates where a point in space should be given the velocity.
+* Added the class VECTOR in MY_MATH which holds point data, speed, acceleration and deceleration properties.
+* OH WAIT, the namespace MY_MATH is new since my last push. Jeez, get better at pushing. It just holds methods that I find useful that are math related.
+
 ## 2020-12-19-01
 
 * Added CENTER extension to EXTENSIONS_NAMESPACE.STRING_EXTENSIONS.

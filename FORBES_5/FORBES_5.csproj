@@ -12,4 +12,13 @@
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\SUPPORT_FILES\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector">
+      <HintPath>..\..\..\..\.nuget\packages\mysqlconnector\1.2.1\lib\net5.0\MySqlConnector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

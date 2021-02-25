@@ -162,6 +162,179 @@
             <param name="FRAME_LEVEL">The frame level to inspect.</param>
             <returns>The name of the method.</returns>
         </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER">
+            <summary>
+            A structure to hold SQL parameters. This is done to prevent SQL injections. Use parameters for any part of a command that a user can influence.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER.ESCAPE_STRING">
+            <summary>
+            The sub-string to search for in a command string.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER.STRING_TO_INSERT">
+            <summary>
+            The string to insert at the location of the found ESCAPE_STRING.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS">
+            <summary>
+            This class handles safe communications with a MySQL server.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.LOGGER_ON">
+            <summary>
+            Set this to true to activate the event logger for this class.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.FULLY_CONNECTED">
+            <summary>
+            True when fully connected, false under all other conditions.
+            </summary>
+        </member>
+        <member name="F:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION">
+            <summary>
+            The MySQL connection object.
+            </summary>
+        </member>
+        <member name="E:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED">
+            <summary>
+            This event is raised when the connection state is changed. The connection state is embedded in a custom EventArgs
+            called CONNECTION_CHANGED_EVENT_ARGS.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS">
+            <summary>
+            Custom EventArgs structure, holds the connection state in FULLY_CONNECTED.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS.#ctor(System.Boolean)">
+            <summary>
+            Constructor for CONNECTION_CHANGED_EVENT_ARGS class, a value must be assigned on initialization.
+            </summary>
+            <param name="VALUE"> Current connection state.</param>
+        </member>
+        <member name="P:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECTION_CHANGED_EVENT_ARGS.FULLY_CONNECTED">
+            <summary>
+            Current Connection State.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.#ctor(System.Boolean)">
+            <summary>
+            Class constructor.
+            </summary>
+            <param name="LOGGER_ON">Set to true if you want this class to output log information.</param>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECT_TO_HOST(System.String,System.String,System.String,System.String)">
+            <summary>
+            Connects to the database defined in intialization.
+            </summary>
+            <returns>
+            <para> 0: Connection success.</para>
+            <para> 1: A connection-level error occurred while opening the connection.</para>
+            <para> 2: Cannot open a connection without specifying a data source or server.</para>
+            <para> 3: Unhandled exception type.</para>
+            </returns>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.CONNECT_TO_DATABASE(System.String)">
+            <summary>
+            This method will connect to the database selected. If all goes well, it will echo back the name of the Database.
+            </summary>
+            <param name="NAME">The name of the database to connect to.</param>
+            <returns>On success it will echo back the name of the database. On failure it will return null.</returns>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.DISCONNECT_FROM_DATABASE">
+            <summary>
+            Disconnects from the current database. Note that this method does not indicate success or failure.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.GET_TABLE_LISTING">
+            <summary>
+            This method returns a DataTable of all the tables in the MySQL database.
+            </summary>
+            <returns>A DataTable of all the tables in the MySQL database.</returns>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.GET_DATABASE_LISTING">
+            <summary>
+            This method will return a DataTable listing of all databases on the host.
+            </summary>
+            <returns>A DataTable of visible databases on host.</returns>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.GET_TABLE(System.String)">
+            <summary>
+            This method returns a DataTable object of the MySql table specified.
+            </summary>
+            <param name="TABLE_NAME">The name of the MySQL table.</param>
+            <returns>A DataTable of the the specified MySQL table.</returns>
+        </member>
+        <member name="M:FORBES_5.MYSQL_COMS_NAMESPACE.MYSQL_COMS.EXECUTE_COMMAND(System.String,FORBES_5.MYSQL_COMS_NAMESPACE.COMMAND_PARAMETER[])">
+            <summary>
+            This method is used to issue database commands. If the command is a hardcoded command, it can be just sent in COMMAND_STRING. If the command
+            string in any way depended on variables or user inputs, a array of parameters should be sent containing those values, otherwise SQL injections may be possible.
+            </summary>
+            <param name="COMMAND_STRING">The command you wish to execute.</param>
+            <param name="PARAMETERS_ARRAY">The parameters you wish to send. See documentation for the COMMAND_PARAMETER structure in this namespace for more details.</param>
+            <returns>
+            <para>Success: A value greater than or equal to zero. This value represents the number of rows affected.</para>
+            <para>Failure: -1</para>
+            </returns>
+        </member>
+        <member name="T:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT">
+            <summary>
+            A point structure for doubles. Contains X, Y and Z coordinates.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT.#ctor(System.Double,System.Double)">
+            <summary>
+            Two dimensional declaration.
+            </summary>
+            <param name="X">The X value.</param>
+            <param name="Y">The Y value.</param>
+        </member>
+        <member name="M:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Three dimensional declaration.
+            </summary>
+            <param name="X">The X value.</param>
+            <param name="Y">The Y value.</param>
+            <param name="Z">The Z value.</param>
+        </member>
+        <member name="P:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT.X">
+            <summary>
+            The X value.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT.Y">
+            <summary>
+            The Y value.
+            </summary>
+        </member>
+        <member name="P:FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT.Z">
+            <summary>
+            The Z value.
+            </summary>
+        </member>
+        <member name="T:FORBES_5.MY_MATH_NAMESPACE.MY_MATH">
+            <summary>
+            This class holds math functions I find useful, or just math functions that I thought would be fun to write.
+            </summary>
+        </member>
+        <member name="M:FORBES_5.MY_MATH_NAMESPACE.MY_MATH.LINEAR_EQUATION(System.Double,System.Double,System.Double)">
+            <summary>
+            Just a simple method for Y = MX+B.
+            </summary>
+            <param name="M">Multiplier</param>
+            <param name="X">Value</param>
+            <param name="B">Offset</param>
+            <returns>Y</returns>
+        </member>
+        <member name="M:FORBES_5.MY_MATH_NAMESPACE.MY_MATH.LINEAR_REGRESSION(System.Collections.Generic.List{FORBES_5.MY_MATH_NAMESPACE.DOUBLE_POINT})">
+            <summary>
+            Calculates the 2D linear equation from a list of points using the least squares method.
+            </summary>
+            <param name="POINT_LIST">The list of points to calculate the equation from.</param>
+            <returns>An array with position 0 equaling M and position 1 equaling B.</returns>
+        </member>
         <member name="T:FORBES_5.STOPWATCH_NAMESPACE.STOPWATCH">
             <summary>
             This class is a simple stopwatch class that does not use background resources (no timer thread). It simply calculates the time difference
@@ -200,6 +373,14 @@
             Marks the stop time and returns the automatically returns the property ELAPSED_TIME.
             </summary>
             <returns>the TimeSpan property ELAPSED_TIME.</returns>
+        </member>
+        <member name="M:FORBES_5.TOOLBOX_NAMESPACE.TOOLBOX.RANDOM_DOUBLE(System.Double,System.Double)">
+            <summary>
+            Returns a random double value that is greater than or equal to LOWER_LIM and less than UPPER_LIM.
+            </summary>
+            <param name="LOWER_LIM">Lower limit (greater than or equal to).</param>
+            <param name="UPPER_LIM">Upper limit (less than but not equal to).</param>
+            <returns>A random double variable.</returns>
         </member>
     </members>
 </doc>

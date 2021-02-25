@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v5.0": {
       "FORBES_5/1.0.0": {
         "dependencies": {
-          "SixLabors.ImageSharp": "1.0.2"
+          "SixLabors.ImageSharp": "1.0.2",
+          "MySql.Data": "8.0.22.0",
+          "MySqlConnector": "1.0.0.0"
         },
         "runtime": {
           "FORBES_5.dll": {}
@@ -19,6 +21,22 @@
           "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "MySql.Data/8.0.22.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "8.0.22.0",
+            "fileVersion": "8.0.22.0"
+          }
+        }
+      },
+      "MySqlConnector/1.0.0.0": {
+        "runtime": {
+          "MySqlConnector.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.1.0"
           }
         }
       }
@@ -36,6 +54,16 @@
       "sha512": "sha512-iZJ37Iss3pUkFl961x1aka85QuvgY9oNZabHijzVnHs4QTz6EMNx3zjJDyvK/0+Ryj6JPv/PC7GVIJXLHtu2nQ==",
       "path": "sixlabors.imagesharp/1.0.2",
       "hashPath": "sixlabors.imagesharp.1.0.2.nupkg.sha512"
+    },
+    "MySql.Data/8.0.22.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySqlConnector/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

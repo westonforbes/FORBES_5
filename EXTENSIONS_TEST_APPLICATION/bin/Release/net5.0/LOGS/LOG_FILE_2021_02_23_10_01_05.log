@@ -1,0 +1,30 @@
+      Timestamp     | Code | Entry ID |    Method Name                   | Message
+2021-02-23T10:01:05 | 0900 | 00000000 | STATIC CONSTRUCTOR               | >>> Thread entering method.
+2021-02-23T10:01:05 | 0910 | 00000001 | STATIC CONSTRUCTOR               |     *** Log created.
+2021-02-23T10:01:05 | 0900 | 00000002 | ERASE_OLD_LOGS                   |     >>> Thread entering method.
+2021-02-23T10:01:05 | 0910 | 00000003 | ERASE_OLD_LOGS                   |         Checking for old log files.
+2021-02-23T10:01:05 | 0901 | 00000004 | ERASE_OLD_LOGS                   |     <<< Thread exiting method.
+2021-02-23T10:01:05 | 0901 | 00000005 | STATIC CONSTRUCTOR               | <<< Thread exiting method.
+2021-02-23T10:01:05 | 0900 | 00000006 | Main                             | >>> Thread entering method.
+2021-02-23T10:01:05 | 0000 | 00000007 | Main                             |     Extensions Test Application
+2021-02-23T10:01:05 | 0900 | 00000008 | TRUNCATE_AND_PAD_TEST            |     >>> Thread entering method.
+2021-02-23T10:01:05 | 0000 | 00000009 | TRUNCATE_AND_PAD_TEST            |         Testing TRUNCATE_AND_PAD.
+2021-02-23T10:01:05 | 0000 | 00000010 | TRUNCATE_AND_PAD_TEST            |         Original string: Very super extremely extra grand enormous string
+2021-02-23T10:01:05 | 0900 | 00000011 | TRUNCATE_AND_PAD                 |         >>> Thread entering method.
+2021-02-23T10:01:05 | 0901 | 00000012 | TRUNCATE_AND_PAD                 |         <<< Thread exiting method.
+2021-02-23T10:01:05 | 0000 | 00000013 | TRUNCATE_AND_PAD_TEST            |         Truncated string: Very super
+2021-02-23T10:01:05 | 0000 | 00000014 | TRUNCATE_AND_PAD_TEST            |         Original string: Little string
+2021-02-23T10:01:05 | 0900 | 00000015 | TRUNCATE_AND_PAD                 |         >>> Thread entering method.
+2021-02-23T10:01:05 | 0901 | 00000016 | TRUNCATE_AND_PAD                 |         <<< Thread exiting method.
+2021-02-23T10:01:05 | 0000 | 00000017 | TRUNCATE_AND_PAD_TEST            |         Padded string: Little string*****************
+2021-02-23T10:01:05 | 0901 | 00000018 | TRUNCATE_AND_PAD_TEST            |     <<< Thread exiting method.
+2021-02-23T10:01:05 | 0900 | 00000019 | CENTER_TEST                      |     >>> Thread entering method.
+2021-02-23T10:01:05 | 0000 | 00000020 | CENTER_TEST                      |         Testing CENTER.
+2021-02-23T10:01:05 | 0900 | 00000021 | CENTER                           |         >>> Thread entering method.
+2021-02-23T10:01:05 | 0903 | 00000022 | CENTER                           |         <<< Thread exiting method. SUCCESS.
+2021-02-23T10:01:05 | 0000 | 00000023 | CENTER_TEST                      |         Centered string : ********TEST********
+2021-02-23T10:01:05 | 0901 | 00000024 | CENTER_TEST                      |     <<< Thread exiting method.
+2021-02-23T10:01:05 | 0900 | 00000025 | OPEN_LOG                         |     >>> Thread entering method.
+2021-02-23T10:01:06 | 0912 | 00000026 | LOG                              |         Opened log file.
+2021-02-23T10:01:06 | 0903 | 00000027 | OPEN_LOG                         |     <<< Thread exiting method. SUCCESS.
+2021-02-23T10:01:06 | 0901 | 00000028 | Main                             | <<< Thread exiting method.
